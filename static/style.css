@@ -1,0 +1,232 @@
+/* General Styles for the Body */
+body {
+    background-image: url('/static/background.jpg'); /* Static path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding-bottom: 40px;
+}
+
+
+/* Home Section */
+.home h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    text-align: center;
+    background: linear-gradient(45deg, #ff6a00, #ee0979);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3), 0 0 25px rgba(255, 105, 180, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+.home h1:hover {
+    transform: scale(1.1);
+}
+
+.home h2 {
+    font-size: 25px;
+    margin: 20px 0;
+    padding: 5px;
+    color: #f4f4f4;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* About Fitness Section */
+.about-fitness {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-fitness h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about-fitness p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.about-fitness ul {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.about-fitness ul li {
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-us ul {
+    text-align: left;
+    margin: 20px 0;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+}
+
+/* Membership Section */
+.membership {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.membership h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.membership .plan {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.membership .plan h3 {
+    font-size: 28px;
+    color: #f4f4f4;
+    margin-bottom: 15px;
+}
+
+.membership .plan p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.membership .plan .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.membership .plan ul {
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.membership .plan ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Login and Signup Form Styles */
+.login-signup {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 60px;
+    width: 300px;
+    margin: 100px auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.login-signup h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.login-signup input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.login-signup input[type="submit"] {
+    background-color: #ff6a00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-signup input[type="submit"]:hover {
+    background-color: #ee0979;
+}
+
+.login-signup .signup-link {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.login-signup .signup-link a {
+    color: #ff6a00;
+    text-decoration: none;
+}
+
+.login-signup .signup-link a:hover {
+    text-decoration: underline;
+}
